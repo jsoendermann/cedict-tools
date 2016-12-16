@@ -1,6 +1,6 @@
-# SegmentingTrie
+# Cedict Tools
 
-A simple trie that segments texts.
+A library to split and look up words in Chinese text.
 
 ## License
 MIT
