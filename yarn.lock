@@ -2070,8 +2070,8 @@ sax@^1.1.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.1.tgz#7b8e656190b228e81a66aea748480d828cd2d37a"
 
 segmenting-trie@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/segmenting-trie/-/segmenting-trie-1.0.0.tgz#427164b8219adb6dd320cbff201a8506d10008ec"
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/segmenting-trie/-/segmenting-trie-1.0.1.tgz#78f49e2846dbc1efe54768c121aaa22f63ffaf15"
 
 semver@^5.1.0, semver@^5.3.0, "semver@2 || 3 || 4 || 5":
   version "5.3.0"
