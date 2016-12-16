@@ -1,0 +1,8 @@
+__tests__
+node_modules
+.gitignore
+tsconfig.json
+yarn.lock
+CedictTools.ts
+.vscode
+*.js.map

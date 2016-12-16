@@ -1,0 +1,48 @@
+{
+  "name": "cedict-tools",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jan Soendermann",
+    "email": "jan.soendermann+npm@gmail.com"
+  },
+  "homepage": "https://github.com/jsoendermann/cedict-tools",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jsoendermann/cedict-tools.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "segmenting-trie": "^1.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=4.1"
+  },
+  "main": "./dist/CedictTools.js",
+  "typings": "./dist/CedictTools.d.ts",
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "@types/jest": "^16.0.1",
+    "@types/lodash": "^4.14.43",
+    "@types/node": "^6.0.52",
+    "jest": "^18.0.0",
+    "ts-jest": "^17.0.3",
+    "typescript": "^2.0.10"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}

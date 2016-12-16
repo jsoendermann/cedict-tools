@@ -1,0 +1,14 @@
+{
+  "include": [
+    "./CedictTools.ts"
+  ],
+  "compilerOptions": {
+    "target": "es3",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "declaration": true,
+    "outDir":  "dist",
+    "sourceMap": true
+  }
+}
