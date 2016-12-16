@@ -1,6 +1,6 @@
 {
   "include": [
-    "./CedictTools.ts"
+    "./src/CedictTools.ts"
   ],
   "compilerOptions": {
     "target": "es3",

@@ -2,7 +2,7 @@
 /// <reference path="../node_modules/@types/node/index.d.ts" />
 
 describe('CedictTools', () => {
-  const { Charset, CedictTools } = require('../CedictTools');
+  const { Charset, CedictTools } = require('../src/CedictTools');
 
   beforeAll(() => {
     CedictTools.initialize();

@@ -1,5 +1,6 @@
 import { SegmentingTrie } from 'segmenting-trie';
 import * as fs from 'fs';
+import * as path from 'path';
 import * as _ from 'lodash';
 
 export type Charset = 'simplified' | 'traditional';
@@ -25,7 +26,7 @@ export namespace CedictTools {
       return;
     }
 
-    const cedictRecords: CedictRecord[] = fs.readFileSync('./cedict_ts.u8', 'utf8')
+    const cedictRecords: CedictRecord[] = fs.readFileSync(path.join(__dirname, '../cedict_ts.u8'), 'utf8')
       .split('\r\n')
       .filter((line: string) => line[0] !== '#' && line.length > 0)
       .map((line: string) => {
