@@ -77,7 +77,7 @@ export namespace CedictTools {
     }
   }
 
-  export const getRecordsForWorddAtIndex = (text: string, index: number, charset: Charset): CedictRecord[] | null => {
+  export const getRecordsForWordAtIndex = (text: string, index: number, charset: Charset): CedictRecord[] | null => {
     let trie;
 
     if (charset === 'simplified') {

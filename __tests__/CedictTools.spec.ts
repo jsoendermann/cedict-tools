@@ -32,8 +32,8 @@ describe('CedictTools', () => {
   });
 
   it('should get records for word at index', () => {
-    expect(CedictTools.getRecordsForWorddAtIndex('好，好', 1, 'simplified')).toEqual(null);
-    expect(CedictTools.getRecordsForWorddAtIndex('好，好', 0, 'simplified')).toEqual([
+    expect(CedictTools.getRecordsForWordAtIndex('好，好', 1, 'simplified')).toEqual(null);
+    expect(CedictTools.getRecordsForWordAtIndex('好，好', 0, 'simplified')).toEqual([
       {
         "english": "/good/well/proper/good to/easy to/very/so/(suffix indicating completion or readiness)/(of two people) close/on intimate terms/",
         "pinyin": "hao3",
@@ -47,7 +47,7 @@ describe('CedictTools', () => {
         "trad": "好",
       },
     ]);
-    expect(CedictTools.getRecordsForWorddAtIndex('好，好', 0, 'traditional')).toEqual([
+    expect(CedictTools.getRecordsForWordAtIndex('好，好', 0, 'traditional')).toEqual([
       {
         "english": "/good/well/proper/good to/easy to/very/so/(suffix indicating completion or readiness)/(of two people) close/on intimate terms/",
         "pinyin": "hao3",
@@ -61,7 +61,7 @@ describe('CedictTools', () => {
         "trad": "好",
       },
     ]);
-    expect(CedictTools.getRecordsForWorddAtIndex('哈罗你好吗？', 2, 'simplified')).toEqual([
+    expect(CedictTools.getRecordsForWordAtIndex('哈罗你好吗？', 2, 'simplified')).toEqual([
       {
         "english": "/Hello!/Hi!/How are you?/",
         "pinyin": "ni3 hao3",
@@ -69,7 +69,7 @@ describe('CedictTools', () => {
         "trad": "你好",
       },
     ]);
-    expect(CedictTools.getRecordsForWorddAtIndex('哈罗你好吗？', 3, 'simplified')).toEqual([
+    expect(CedictTools.getRecordsForWordAtIndex('哈罗你好吗？', 3, 'simplified')).toEqual([
       {
         "english": "/Hello!/Hi!/How are you?/",
         "pinyin": "ni3 hao3",
